@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 		<title>Holocene 1.0</title>
+		<!-- Added these two meta tags for SharedArrayBuffer support -->
+		<meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+		<meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -196,4 +199,3 @@ const engine = new Engine(GODOT_CONFIG);
 		</script>
 	</body>
 </html>
-
